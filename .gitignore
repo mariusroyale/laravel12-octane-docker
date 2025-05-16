@@ -1,0 +1,48 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+*.log
+*.sqlite
+
+# Docker
+docker-compose.override.yml
+docker/php/php.ini
+docker/postgres/data
+docker/postgres/*.pid
+docker/postgres/*.conf
+docker/nginx/*.conf~
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NPM & Vite
+/resources/js/*.js
+/resources/css/*.css
+/public/hot
+/public/build
+/public/mix-manifest.json
+/public/js
+/public/css
+
+# Composer
+composer.lock
+
+# Node & npm/yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

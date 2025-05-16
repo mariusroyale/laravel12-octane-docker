@@ -1,0 +1,44 @@
+# Node modules and vendor (we'll install fresh in container)
+node_modules
+vendor
+
+# Laravel specific cache/storage
+storage/logs
+storage/framework/cache/*
+storage/framework/views/*
+bootstrap/cache/*.php
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+*.vscode
+.idea
+
+# Environment files
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+docker/node_modules
+docker/php/vendor
+docker/nginx/default.conf~
+
+# Git
+.git
+.gitignore
+
+# Composer cache
+composer.lock
+
+# NPM/Yarn lock files (optional, if you want fresh installs)
+package-lock.json
+yarn.lock
