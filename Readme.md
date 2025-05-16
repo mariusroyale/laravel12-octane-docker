@@ -8,11 +8,13 @@ This repository contains a Laravel 12 API-only application running on Docker usi
 - **Valkey** (latest) for in-memory caching
 - **Docker Compose** for orchestration
 
+> ✅ **Compiled and tested with:** Docker Desktop `4.41.2 (191736)` on Windows 11 Pro + Ubuntu WSL `24.04.2 LTS`
+
 ---
 
 ## Quick Start
 
-### 1. 🧱 Install Laravel App using ./setup.sh ![Laravel](https://img.shields.io/badge/Laravel-12-red?logo=laravel&logoColor=white) 
+### 1. 🧱 Install Laravel 12 App using ./setup.sh ![Laravel](https://img.shields.io/badge/Laravel-12-red?logo=laravel&logoColor=white) 
 
 - Creates Docker Builds && Containers
 - Installs the PHP 8.4 application + [Swoole](https://www.php.net/manual/en/book.swoole.php)
@@ -35,7 +37,7 @@ or (if you need to rebuild and re-create containers)
 
 ---
 
-### 2. ⚡ Start Laravel Octane
+### 2. ⚡ Start Laravel 12 Octane
 
 ```bash
 docker-compose exec app php artisan octane:start --server=swoole --host=0.0.0.0 --port=8000
